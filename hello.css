@@ -1,0 +1,71 @@
+.im1
+{
+  width: 10%;
+  background-color: rebeccapurple;
+  position: absolute;
+  transform: translateY(-253px);
+  display: none;
+}
+.head
+{
+ background-color: black; 
+}
+.im2
+{
+  position: relative;
+  background-color: chartreuse;
+ 
+  display: none;
+  width: 80px;
+}
+.b
+{
+  display: inline-block;
+}
+.im3
+{
+  position: relative;
+  background-color: chartreuse;
+ 
+  display: none;
+  width: 80px; 
+}
+.im4
+{
+  position: relative;
+  background-color: chartreuse;
+ 
+  display: none;
+  width: 80px; 
+}
+.im5
+{
+  position: relative;
+  background-color: chartreuse;
+ 
+  display: none;
+  width: 80px; 
+}
+.im6
+{
+  position: relative;
+  background-color: chartreuse;
+ 
+  display: none;
+  width: 80px; 
+}
+#mo
+{
+display: none;  
+}
+#c
+{
+display: none;  
+position: absolute;
+transform: translate(81px, -115px);
+}
+#m9
+{
+ display: none;
+ position: absolute;
+}

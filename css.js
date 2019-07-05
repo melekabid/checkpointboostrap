@@ -1,0 +1,47 @@
+$(document).ready(function(){
+    $("#img2").click(function(){
+        $(".im2").toggle(500);
+    });
+  });
+  $(document).ready(function(){
+    $("#img1").click(function(){
+        $(".im1").toggle(500);
+    });
+  });
+  $(document).ready(function(){
+    $("#img3").click(function(){
+        $(".im3").toggle(500);
+    });
+  });
+  $(document).ready(function(){
+    $("#img4").click(function(){
+        $(".im4").toggle(500);
+    });
+  });
+  $(document).ready(function(){
+    $("#img5").click(function(){
+        $(".im5").toggle(500);
+    });
+  });
+  $(document).ready(function(){
+    $("#img6").click(function(){
+        $(".im6").toggle(500);
+    });
+  });
+  $(".b").hover(function(){
+    $("#mo").css("display","flex");
+    $("#c").css("display","flex");
+    $("#img2").css("display","none");
+  },function(){
+
+ $("#img2").css("display","flex");
+    $("#mo").css("display","none");
+    $("#c").css("display","none");
+  }
+  );
+  $(document).ready(function(){
+    $("#m9").css("display","flex");
+  });
+  $(document).ready(function(){
+    $("#m9").animate({top :'+=250',left:'+=250',heigh:'+=3000',width:"+=100"})
+  });
